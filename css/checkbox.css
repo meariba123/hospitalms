@@ -1,0 +1,22 @@
+/* checkbox CSS for the yes or no options */
+
+.input-box label {
+    margin-right: 10px;
+}
+
+.input-box input[type="checkbox"] {
+    display: none;
+}
+
+.input-box input[type="checkbox"] + label {
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.input-box input[type="checkbox"]:checked + label {
+    background-color: #4CAF50;
+    color: black;
+}
